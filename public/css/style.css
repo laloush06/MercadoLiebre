@@ -1,9 +1,16 @@
 * {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
+
 header {
     background: #EAC926;
+}
+main {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-color: #ebebeb;
 }
 footer {
     text-align: center;
@@ -25,6 +32,14 @@ footer {
 .iconos-footer {
     font-size: 2em;
     color: blue;
+}
+.articulo {
+    margin: 10px;
+}
+.caja {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    /* background-color: white; */
 }
 /* BURGER MENU */
 .fa-bars {
