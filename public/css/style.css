@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+header {
+    background: #EAC926;
+}
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulares {
+    font-size: 24px;
+}
+.precios {
+    font-size: 18px
+}
+.descuentos {
+    font-size: 16px;
+}
+.descrpcion {
+    font-size: 16px;
+}
+.iconos-footer {
+    font-size: 2em;
+    color: blue;
+}
+/* BURGER MENU */
+.fa-bars {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+    /* este modifica para agrandar el fondo azul */
+
+.burger-menu {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: auto;
+}
