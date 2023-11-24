@@ -1,8 +1,173 @@
-.header-log-bar{
-    display: flex;                                                          /*      DISPLAY FLEX                                    */
-    flex-wrap: wrap;                                                        /*      FLEX WRAP (on)                                  */
-    padding: 0.6rem;                                                        /*      RELLENA CON 0.6REM                              */
-    justify-content: space-between;                                         /*      JUSTIFY-CONTENT (on)                            */    
+/* ---------------------- MAIN ---------------------- */
+
+.user-form-box, .password-form-box, .submit-button-box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 30px;
+    border: none;
+    background-color: #ebebeb;
+}
+
+#user-form{
+    width: 550px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+    border: none;
+    padding-left: 15px;
+    box-shadow: 0 0 2.5px rgb(100, 100, 100);
+}
+
+#password-form{
+    width: 550px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    background-color: #ffff;
+    border: none;
+    padding-left: 15px;
+    box-shadow: 0 0 2.5px rgb(100, 100, 100);
+}
+
+#submit-form{
+    width: 550px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    background-color: #1259c3;
+    color: #ffff;
+    outline: none;
+    border: none;
+    text-align: center;
+    -webkit-text-stroke:black 0.2px;
+    box-shadow: 0 0 2.5px rgb(100, 100, 100);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;                                                               
+    margin: 0;                                                                                 
+    padding: 0;                                                             
+    box-sizing: border-box;}
+
+body{
+background-color: #ebebeb;}
+
+p{
+    font-size: 14px;}
+
+h3{
+    font-size: 24px;
+}
+
+a{
+    color: #000000;
+    -webkit-text-stroke: #000000 0.2px;
+}
+
+/* Header */
+
+header{
+    background-color: #EAC926;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    height: auto;
+    width: 15%;
+}
+
+.burger-menu{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.fa-bars{
+    text-decoration: solid;
+    color: #ffff;
+    background-color: #1259c3;
+    border-radius: 10px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.search-input, .search-button{
+    border: none;
+    padding: 0.5rem;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 0.6rem;
+}
+
+.search-form{
+    background-color: #ffff;
+    border-radius: 0.6rem;
+    text-align: center;
+}
+
+.search-input{
+    outline: none;
+    width: 280px;
+    border-radius: 0.6rem;
+}
+
+.mensaje{
+    text-align: center;
+    margin: 0.6rem;
+}
+
+.header-logo{
+    display: flex;
+    flex-wrap: wrap;    
+    padding: 0.6rem;  
+    justify-content: space-between;
+}
+
+.nav-bar li{
+    margin: 0 1rem;
+    margin: 1.5rem;
+    font-size: 1.8vh;
+}
+
+footer{
+    background-color: #ffff;
+    margin: 0.5rem; 
+}
+
+.basic-information{
+    text-align: center;  
+    margin: 1.2rem;  
+}
+
+.card-icon-fa, .shipping-icon-fa, .security-icon-fa{
+    font-size: 32px;  
+    margin-bottom: 0.6rem; 
+    color: #1259c3; 
+    padding-top: 50px;
+}
+
+.buy-cash-card, .free-shipping, .main-security, .copyright-information{
+    color: #666;   
+    padding: 1rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.title-extra-info{
+    -webkit-text-stroke: #000000 0.1px;
+}
+
+.copyright-information{
+    padding-top: 90px;
 }
 
 /* ---------------------- MEDIA QUERY ( mobile ) ---------------------- */
